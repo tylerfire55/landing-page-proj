@@ -1,5 +1,5 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
     background-color: white;
     margin: 0px;
@@ -17,8 +17,10 @@ body {
 
 .header, .hero {
     display: flex;
-    margin-top: 0px;
+    margin-top: 10px;
     padding: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .logo, .links, .heroText, .heroImage {
@@ -48,6 +50,11 @@ body {
     flex: 1 0 auto;
     align-items: center;
 }
+
+.heroText {
+    padding-right: 150px;
+}
+
 
 .heroTop, .heroMid, .heroBot {
     margin: 10px;
@@ -101,6 +108,7 @@ body {
     color: black;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 100px;
 }
 
 .tile1, .tile2, .tile3, .tile4 {
@@ -112,3 +120,24 @@ body {
     
 }
 
+.section3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteStuff {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    flex: auto;
+    margin: 100px 300px;
+    text-align: justify;
+}
+
+.fakeAuthor {
+    display: flex;
+    justify-content: end;
+    font-style: normal;
+    font-weight: bold;
+}
