@@ -8,9 +8,9 @@ body {
 .section1 {
     padding: 50px;
     padding-top: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     background-color: #1F2937;
-    height: 500px;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
@@ -52,7 +52,7 @@ body {
 }
 
 .heroText {
-    padding-right: 150px;
+    padding-right: 50px;
 }
 
 
@@ -70,8 +70,9 @@ body {
     font-size: 18px;
     font-weight: 600;
     background-color: #3882F6;
-    width: 120px;
-    height: 40px;
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
     border-radius: 10px;
 }
 
@@ -80,8 +81,8 @@ body {
     align-items: center;
     justify-content: center;
     background-color: gray;
-    height: 200px;
-    width: 400px;
+    min-height: 160px;
+    min-width: 90px;
 }
 
 .section2 {
@@ -131,7 +132,7 @@ body {
     font-size: 36px;
     font-style: italic;
     flex: auto;
-    margin: 100px 300px;
+    padding: 100px 100px;
     text-align: justify;
 }
 
@@ -140,4 +141,37 @@ body {
     justify-content: end;
     font-style: normal;
     font-weight: bold;
+}
+
+.section4{
+    display: flex;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    padding: 50px;
+}
+
+.callBox {
+    background-color: #3882F6;
+    height: auto;
+    width: auto;
+    display: flex;
+    padding: 50px 75px;
+    border-radius: 10px;
+}
+
+.callLeft {
+    padding: 20px;
+}
+
+.callToButton {
+    align-self: center;
+    font-size: 18px;
+    font-weight: 500;
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+
 }
