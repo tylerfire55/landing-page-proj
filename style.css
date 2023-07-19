@@ -6,13 +6,12 @@ body {
 }
 
 .section1 {
-    padding: 50px;
-    padding-top: 0px;
-    padding-bottom: 50px;
+    padding: 0px 200px 50px;
     background-color: #1F2937;
     height: auto;
     display: flex;
     flex-direction: column;
+    min-height: 500px
 }
 
 .header, .hero {
@@ -86,9 +85,9 @@ body {
 }
 
 .section2 {
-    padding-top: 20px;
+    padding: 20px 200px 50px;
     background-color: white;
-    
+    min-height: 470px
 }
 
 
@@ -122,9 +121,11 @@ body {
 }
 
 .section3 {
+    padding: 20px 200px 50px;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    min-height: 350px
 }
 
 .quoteStuff {
@@ -132,7 +133,7 @@ body {
     font-size: 36px;
     font-style: italic;
     flex: auto;
-    padding: 100px 100px;
+    padding: 100px 200px;
     text-align: justify;
 }
 
@@ -145,33 +146,38 @@ body {
 
 .section4{
     display: flex;
-    height: auto;
-    width: auto;
     justify-content: center;
-    padding: 50px;
+    align-items: center;
+    padding: 20px 200px 50px;
+    min-height: 300px
 }
 
 .callBox {
     background-color: #3882F6;
-    height: auto;
-    width: auto;
+    flex: 1;
+    min-height: 120px;
+    max-height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
     display: flex;
-    padding: 50px 75px;
     border-radius: 10px;
+    margin: auto 90px;
 }
 
 .callLeft {
     padding: 20px;
 }
 
+.callToAction {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .callToButton {
     align-self: center;
     font-size: 18px;
     font-weight: 500;
-    width: auto;
-    height: auto;
     padding: 10px 20px;
     border: 2px solid white;
     border-radius: 10px;
-
 }
