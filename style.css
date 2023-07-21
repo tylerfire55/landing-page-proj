@@ -38,11 +38,13 @@ body {
 
 .links {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .link1, .link2, .link3 {
     flex: 1;
-    text-align: end;
+    text-align: center;
 }
 
 .hero {
@@ -111,15 +113,24 @@ body {
     margin-bottom: 100px;
 }
 
-.tile1, .tile2, .tile3, .tile4 {
+
+.tiletop1, .tiletop2, .tiletop3, .tiletop4 {
     border: solid #3882F6;
     border-radius: 20px;
     flex: 1 1 1;
+    margin: 20px;
     height: 150px;
     width: 150px;
     
 }
-
+.tilebot1, .tilebot2, .tilebot3, .tilebot4 {
+    margin: 20px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    width: 150px;
+}
 .section3 {
     padding: 20px 200px 50px;
     background-color: #E5E7EB;
@@ -170,7 +181,7 @@ body {
 
 .callToAction {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .callToButton {
@@ -180,4 +191,13 @@ body {
     padding: 10px 20px;
     border: 2px solid white;
     border-radius: 10px;
+}
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 200px 20px;
+    min-height: 50px;
+    background-color: #1F2937;
 }
